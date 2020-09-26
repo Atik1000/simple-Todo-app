@@ -1,15 +1,14 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-
 import "./App.css";
-import Index from "./component/Todo/Index";
+import Todo from "./component/Todo/Todo";
 
 function App() {
   return (
     <Container className="my-3">
       <Row>
         <Col>
-          <Index></Index>
+         <Todo></Todo>
         </Col>
       </Row>
     </Container>
